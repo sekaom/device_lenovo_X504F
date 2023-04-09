@@ -1,6 +1,11 @@
 [
   {
+<<<<<<< HEAD
     "repository": "android_device_lenovo_tb-common",
     "target_path": "device/lenovo/tb-common"
+=======
+    "repository": "android_kernel_lenovo_msm8953",
+    "target_path": "kernel/lenovo/msm8953"
+>>>>>>> 073422427ddc82d8eb96b7bc5319089e0ba15e29
   }
 ]
