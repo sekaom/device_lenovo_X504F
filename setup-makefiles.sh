@@ -1,6 +1,4 @@
 #!/bin/bash
-#
-# Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017-2019 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,6 +16,14 @@
 
 set -e
 
+# Required!
+export DEVICE=TBX304
+export DEVICE_COMMON=tb-common
+export VENDOR=lenovo
+
+export DEVICE_BRINGUP_YEAR=2020
+
+./../../$VENDOR/$DEVICE_COMMON/setup-makefiles.sh $@
 INITIAL_COPYRIGHT_YEAR=2019
 
 # Load extract_utils and do some sanity checks
