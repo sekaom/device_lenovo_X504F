@@ -14,10 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/lenovo/TBX304
+DEVICE_PATH := device/lenovo/X504F
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := TB-X304X,TB-X304L,TB-X304F,TBX304,tb_x304x,tb_x304l,tb_x304f,tb_x304,X504F
+TARGET_OTA_ASSERT_DEVICE := X504F,x504f,tbx504f,TBX504F,
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := msm8937
@@ -166,8 +166,8 @@ TARGET_KERNEL_CONFIG := lineageos_tbx304_defconfig
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_lenovo_tbx304
-TARGET_RECOVERY_DEVICE_MODULES := libinit_lenovo_tbx304
+TARGET_INIT_VENDOR_LIB := libinit_lenovo_x504f
+TARGET_RECOVERY_DEVICE_MODULES := libinit_lenovo_x504f
 
 # Media
 TARGET_USES_MEDIA_EXTENSIONS := true
@@ -235,7 +235,7 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
--include vendor/lenovo/TBX304/BoardConfigVendor.mk
+-include vendor/lenovo/X504F/BoardConfigVendor.mk
 
 # Inherit from the proprietary version
 include vendor/lenovo/tb-common/BoardConfigVendor.mk

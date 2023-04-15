@@ -405,4 +405,4 @@ PRODUCT_BOOT_JARS += \
 $(call inherit-product, vendor/lenovo/tb-common/tb-common-vendor.mk)
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/lenovo/TBX304/TBX304-vendor.mk)
+$(call inherit-product, vendor/lenovo/X504F/X504F-vendor.mk)
