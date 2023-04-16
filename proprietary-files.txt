@@ -1,15 +1,14 @@
 # ACDB audio from stock
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
+etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
+etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
+etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
+etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
+etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
+etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
+etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
 
 # Camera from stock
-vendor/bin/mm-qcamera-daemon
+bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon
 vendor/lib/libchromaflash.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
@@ -108,7 +107,6 @@ vendor/lib/libubifocus.so
 # Camera actuator from stock
 vendor/lib/libactuator_qtech_dw9714.so
 vendor/lib/libactuator_sunny_dw9714.so
-vendor/lib/libactuator_tsp_dw9714.so
 vendor/lib/libactuator_holitech_dw9714.so
 
 # Camera chromatix from stock
@@ -166,54 +164,6 @@ vendor/lib/libchromatix_ov5695_sunny_video_full.so
 vendor/lib/libchromatix_ov5695_sunny_zsl_preview.so
 vendor/lib/libchromatix_ov5695_sunny_zsl_video.so
 
-vendor/lib/libchromatix_gc5025_a3_default_preview.so
-vendor/lib/libchromatix_gc5025_a3_default_video.so
-vendor/lib/libchromatix_gc5025_a3_hfr_60.so
-vendor/lib/libchromatix_gc5025_a3_hfr_90.so
-vendor/lib/libchromatix_gc5025_common.so
-vendor/lib/libchromatix_gc5025_cpp_hfr_60.so
-vendor/lib/libchromatix_gc5025_cpp_hfr_90.so
-vendor/lib/libchromatix_gc5025_cpp_liveshot.so
-vendor/lib/libchromatix_gc5025_cpp_preview.so
-vendor/lib/libchromatix_gc5025_cpp_snapshot.so
-vendor/lib/libchromatix_gc5025_cpp_video.so
-vendor/lib/libchromatix_gc5025_default_video.so
-vendor/lib/libchromatix_gc5025_hfr_60.so
-vendor/lib/libchromatix_gc5025_hfr_90.so
-vendor/lib/libchromatix_gc5025_liveshot.so
-vendor/lib/libchromatix_gc5025_postproc.so
-vendor/lib/libchromatix_gc5025_preview.so
-vendor/lib/libchromatix_gc5025_snapshot.so
-vendor/lib/libchromatix_gc5025_zsl_preview.so
-vendor/lib/libchromatix_gc5025_zsl_video.so
-
-vendor/lib/libchromatix_hi556_a3_default_preview.so
-vendor/lib/libchromatix_hi556_a3_default_video.so
-vendor/lib/libchromatix_hi556_a3_hfr_120.so
-vendor/lib/libchromatix_hi556_a3_hfr_60.so
-vendor/lib/libchromatix_hi556_a3_hfr_90.so
-vendor/lib/libchromatix_hi556_common.so
-vendor/lib/libchromatix_hi556_cpp_ds_chromatix.so
-vendor/lib/libchromatix_hi556_cpp_hfr_120.so
-vendor/lib/libchromatix_hi556_cpp_hfr_60.so
-vendor/lib/libchromatix_hi556_cpp_hfr_90.so
-vendor/lib/libchromatix_hi556_cpp_liveshot.so
-vendor/lib/libchromatix_hi556_cpp_preview.so
-vendor/lib/libchromatix_hi556_cpp_snapshot.so
-vendor/lib/libchromatix_hi556_cpp_us_chromatix.so
-vendor/lib/libchromatix_hi556_cpp_video_full.so
-vendor/lib/libchromatix_hi556_cpp_video.so
-vendor/lib/libchromatix_hi556_default_video.so
-vendor/lib/libchromatix_hi556_hfr_120.so
-vendor/lib/libchromatix_hi556_hfr_60.so
-vendor/lib/libchromatix_hi556_hfr_90.so
-vendor/lib/libchromatix_hi556_postproc.so
-vendor/lib/libchromatix_hi556_preview.so
-vendor/lib/libchromatix_hi556_snapshot.so
-vendor/lib/libchromatix_hi556_video_full.so
-vendor/lib/libchromatix_hi556_zsl_preview.so
-vendor/lib/libchromatix_hi556_zsl_video.so
-
 vendor/lib/libchromatix_sp2509_a3_default_preview.so
 vendor/lib/libchromatix_sp2509_a3_default_video.so
 vendor/lib/libchromatix_sp2509_a3_hfr_120.so
@@ -268,29 +218,21 @@ vendor/lib/libchromatix_gc2375_zsl_video.so
 # Camera eeprom from stock
 vendor/lib/libmmcamera_qtech_ov5695_eeprom.so
 vendor/lib/libmmcamera_sunny_ov5695_eeprom.so
-vendor/lib/libmmcamera_gc5025_otp_eeprom.so
-vendor/lib/libmmcamera_holitech_hi556_eeprom.so
 
 # Camera firmware from stock
-vendor/firmware/cpp_firmware_v1_5_0.fw
-
-# Camera flash
+etc/firmware/cpp_firmware_v1_5_0.fw:vendor/firmware/cpp_firmware_v1_5_0.fw
 
 # Camera sensors from stock
-vendor/etc/camera/camera_config.xml
-vendor/etc/camera/ov5695_qtech_chromatix.xml
-vendor/etc/camera/ov5695_sunny_chromatix.xml
-vendor/etc/camera/gc5025_chromatix.xml
-vendor/etc/camera/hi556_chromatix.xml
-vendor/etc/camera/sp2509_chromatix.xml
-vendor/etc/camera/gc2375_chromatix.xml
+etc/camera/camera_config.xml:vendor/etc/camera/camera_config.xml
+etc/camera/ov5695_qtech_chromatix.xml:vendor/etc/camera/ov5695_qtech_chromatix.xml
+etc/camera/ov5695_sunny_chromatix.xml:vendor/etc/camera/ov5695_sunny_chromatix.xml
+etc/camera/sp2509_chromatix.xml:vendor/etc/camera/sp2509_chromatix.xml
+etc/camera/gc2375_chromatix.xml:vendor/etc/camera/gc2375_chromatix.xml
 vendor/lib/libmmcamera_ov5695_qtech.so
 vendor/lib/libmmcamera_ov5695_sunny.so
-vendor/lib/libmmcamera_gc5025.so
-vendor/lib/libmmcamera_hi556.so
 vendor/lib/libmmcamera_sp2509.so
 vendor/lib/libmmcamera_gc2375.so
 
-# TB-X304 Graphics firmware
-vendor/firmware/a300_pm4.fw
-vendor/firmware/a300_pfp.fw
+# Graphics firmware
+etc/firmware/a300_pm4.fw:vendor/firmware/a300_pm4.fw
+etc/firmware/a300_pfp.fw:vendor/firmware/a300_pfp.fw
