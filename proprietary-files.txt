@@ -107,7 +107,6 @@ vendor/lib/libubifocus.so
 # Camera actuator from stock
 vendor/lib/libactuator_qtech_dw9714.so
 vendor/lib/libactuator_sunny_dw9714.so
-vendor/lib/libactuator_holitech_dw9714.so
 
 # Camera chromatix from stock
 vendor/lib/libchromatix_ov5695_qtech_a3_default_preview.so
