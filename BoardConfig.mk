@@ -202,7 +202,7 @@ TARGET_USES_OLD_MNC_FORMAT := true
 # SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
 
-include device/qcom/sepolicy-legacy-um/sepolicy.mk
+include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
