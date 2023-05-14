@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_X504F.mk
+    $(LOCAL_DIR)/exthm_X504F.mk
